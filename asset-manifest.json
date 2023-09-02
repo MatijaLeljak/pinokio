@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pinokio/static/css/main.4c92ef1f.css",
-    "main.js": "/pinokio/static/js/main.cac85073.js",
+    "main.js": "/pinokio/static/js/main.d5b18431.js",
     "static/media/Woodworker.gif": "/pinokio/static/media/Woodworker.b785358766d1571b6b26.gif",
     "static/media/parallax.jpg": "/pinokio/static/media/parallax.3941a675eb4eb1b4630c.jpg",
     "static/media/ostalo2.jpg": "/pinokio/static/media/ostalo2.bb9f67ced05b60b444ba.jpg",
@@ -37,10 +37,10 @@
     "static/media/FutuMd.ttf": "/pinokio/static/media/FutuMd.8baf55eaf7730ecd52cf.ttf",
     "index.html": "/pinokio/index.html",
     "main.4c92ef1f.css.map": "/pinokio/static/css/main.4c92ef1f.css.map",
-    "main.cac85073.js.map": "/pinokio/static/js/main.cac85073.js.map"
+    "main.d5b18431.js.map": "/pinokio/static/js/main.d5b18431.js.map"
   },
   "entrypoints": [
     "static/css/main.4c92ef1f.css",
-    "static/js/main.cac85073.js"
+    "static/js/main.d5b18431.js"
   ]
 }
