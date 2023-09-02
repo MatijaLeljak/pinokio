@@ -1,0 +1,333 @@
+@font-face {
+    font-family: 'futura';
+    src: url(fonts/FutuMd.ttf);
+    font-style: normal;   
+}
+@font-face {
+    font-family: 'futura-bold';
+    src: url(fonts/FutuBd.ttf);
+    font-style: normal;  
+}
+*{
+    font-family: 'futura';   
+}
+a{
+    cursor: pointer;
+}
+.nav-link{
+    color: black;
+    font-size: 18px;  
+}
+.scroll-lock {
+  overflow: hidden;
+}
+.nav-link::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #3c6255;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.expanded-navbar {
+  background: #fff;
+  position: fixed;
+  left: 0;
+  top: 81px;
+  width: 100%;
+  height: 100vh!important; /* Adjust the z-index as needed */
+}
+.active::after{
+  width: 100%;
+}
+.hero-block{
+    width: 100%;
+    background-image: url(components/Products/images/daska2-2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.info{
+    position: absolute;
+    padding: 10px 20px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.sticky-nav {
+        background-color: #FFF;
+        
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.logo{
+  height: 100px;
+} 
+.sticky-nav a img{
+  height: 55px;
+}
+.typing-text{
+    align-self: end;
+    margin: 0 auto; 
+}
+h1{
+    font-family: 'futura-bold';
+    margin:2rem;
+    text-align: center;
+}
+.heading-wrapper{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 5rem;
+    opacity: 0.1;
+}
+.woodworker{
+  background-image: url("components/Products/images/Woodworker.gif");
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+}
+.parallax {
+    /* The image used */
+    background-image: url("components/Products/images/parallax.jpg");
+  
+    /* Set a specific height */
+    min-height: 300px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+  .green{
+    color : #3c6255;
+  }
+  .subheading::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    width: 30px;
+    height: 3px;
+    background: #3c6255;
+  }
+  .text-bg{
+    list-style: none;
+    padding-top: 20px;;
+  }
+  .text-bg li{
+    padding-left: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .text-bg li::before{
+    color: #3c6255;
+    content: "\f105";
+    font-family: "FontAwesome";
+    font-size: 20px;
+    left: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 0;
+    width: 20px;
+  }
+  .contact-success{
+    background-image: url("components/Products/images/contactSuccess.png");
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+  }
+  .form-input{
+    border: #e0e0e0 solid 1px;
+    width: 100%;
+    margin-bottom: 1rem;
+    line-height: 2;
+    padding: 10px 20px;
+  }
+  .h-300{
+    min-height: 300px;
+  }
+  .btn-green:focus-visible, .form-input:focus-visible{
+    outline: #3c6255 solid 2px;
+  }
+  .btn-green{
+    background-color: #3c6255;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+  }
+  .social-media-list{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+  .social-media-list li a {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .social-media-list li a .icon {
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+  }
+  .social-media-list li a:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
+  }  
+  .social-media-list li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+  }
+  .social-media-list li a:hover:before {
+    top: 0;
+  }
+  .social-media-list li:nth-child(1) a:before{
+    background: #3b5999;
+  }
+  .social-media-list li:nth-child(2) a:before{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  }
+  .social-media-list li:nth-child(3) a:before{
+    background: #3c6255;
+  }
+  .back-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background-color: #3c6255; /* Promijenite boju prema svojim željama */
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  footer{
+    margin-top: 5em;
+    padding-top: 5em;
+    padding-bottom: 2.5rem;
+    background-color: #1e2129;
+    color: #ffffff;
+    display: block;
+  }
+  .footer-contact{
+    border: 1px solid #fff;
+    border-radius: 3rem;
+    text-decoration: none;
+    color: white;
+    padding: 25px 30px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .footer-contact:hover{
+    text-decoration: underline;
+  }
+  .footer-nav{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 0;
+    display: flex;
+  }
+.footer-nav li{
+  padding: 5px;
+}
+.footer-nav li a{
+  color: #e0e0e0;
+  text-decoration: none;
+}
+
+  @media (max-width:1100px){
+    .woodworker{
+      width: 450px;
+      height: 450px;
+    }
+  }
+  @media (max-width: 992px){
+    .navbar-nav {
+        align-items: center;
+        height: calc(100% - 81px);
+        justify-content: center;
+    }
+    .white-bg{
+      background-color: #FFF;
+    }
+    .nav-link{
+      font-size: 6vh;
+    }
+    .navbar-toggler:focus{
+      box-shadow: none;
+    }
+    }
+    @media (max-width:768px){
+      .footer-contact{
+        width: 100%;
+        text-align: center;
+      }
+    }
+    @media (max-width:600px){
+      .woodworker, .contact-success{
+        width: 250px;
+        height: 250px;
+      }
+      .hero-block{
+        background-image: url("components/Products/images/daska2.jpg");
+      }
+      .parallax {
+        /* The image used */
+        background-image: url("components/Products/images/parallax2.jpeg")
+      }
+    }
+    @media (max-width:500px){
+      .heading-wrapper{
+        font-size: 3rem;
+      }
+      .text-bg{
+        padding-left: 0;
+      }
+    }
+    @media (max-width:400px){
+      
+      .logo{
+        width: 110px;
+      }
+      .footer-nav{
+        font-size: 14px;
+      }
+    }
+    
