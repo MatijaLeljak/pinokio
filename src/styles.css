@@ -330,14 +330,10 @@ h1{
       .text-bg{
         padding-left: 0;
       }
-    }
-    @media (max-width:400px){
-      
       .logo,.sticky-nav a img{
         width: 70px;
         height: auto;
       }
-      
       .footer-nav{
         font-size: 14px;
       }
