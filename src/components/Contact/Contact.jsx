@@ -23,7 +23,7 @@ export default function Contact(props){
                             <p>No categories to display.</p>
                             )} 
                     </ul>
-                    <div className="d-flex justify-content-between">
+                    <div className="d-flex justify-content-between social-media">
                         <ul className="social-media-list">
                             <li>
                                 <a href="https://www.facebook.com/pinokio.daske" target="_blank" rel="noreferrer"><i class="fa-brands fa-facebook-f icon"></i></a>

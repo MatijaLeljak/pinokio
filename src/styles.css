@@ -318,6 +318,13 @@ h1{
       .heading-wrapper{
         font-size: 3rem;
       }
+      .social-media{
+        flex-direction: column;
+        align-items: center;
+      }
+      .social-media-list{
+        justify-content: center;
+      }
     }
     @media (max-width:500px){
       .text-bg{
