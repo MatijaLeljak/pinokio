@@ -6,7 +6,7 @@ export default function Heading(props){
         <Fade triggerOnce  delay={500}>
             <div className="position-relative">
                 <div className="heading-wrapper">{props.heading}</div>
-                <h1 className={"pt-5 " + (props.paddingBottom ? "pb-5" : "")}>{props.heading}</h1>
+                <h1 className={"pt-4 pt-sm-5 " + (props.paddingBottom ? "pb-5" : "")}>{props.heading}</h1>
             </div>
         </Fade>
     )

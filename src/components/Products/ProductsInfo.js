@@ -22,7 +22,7 @@ export const info = [
     {
         heading: "Kontakt",
         subheading: "Pronašli ste savršeni proizvod za svoj dom?",
-        textAbout: ["Ispunite kontakt formu i pošaljite nam svoj upit ili poruku vezanu za proizvod koji želite naručiti. Rado ćemo vam odgovoriti s detaljima i mogućnostima.", "Nakon što primimo vaš upit, brzo ćemo vam odgovoriti putem e-maila i rado vam pružiti dodatne informacije o cijenama, dostavi i drugim relevantnim detaljima.", "Ako preferirate drugi način komunikacije, nemojte se ustručavati da nam to navedete u poruci - rado ćemo se prilagoditi vašim preferencijama."],
+        textAbout: ["Ispunite kontakt formu i pošaljite nam svoj upit ili poruku vezanu za proizvod koji želite naručiti. Rado ćemo vam odgovoriti s detaljima i mogućnostima.", "Nakon što primimo vaš upit, brzo ćemo vam odgovoriti putem e-maila i rado vam pružiti dodatne informacije o cijenama, dostavi i drugim relevantnim detaljima.", "Ako preferirate drugi način komunikacije dostupni smo i na društvenim mrežama gdje nam se možete obratiti."],
         formSubheading: "Pošaljite upit",
         formButton: "Pošalji",
         formSuccessHeading: "Hvala na Vašem interesu za naše proizvode.",

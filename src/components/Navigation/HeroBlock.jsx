@@ -67,7 +67,7 @@ function HeroBlock(){
             </div>
             <div className="typing-text">
               <h1>
-                <ReactTyped strings={["Proizvodi od drva koji donose toplinu i karakter u vaš životni prostor"]} typeSpeed={100} loop />
+                <ReactTyped strings={["Proizvodi od drva koji donose toplinu i karakter u vaš životni prostor"]} typeSpeed={50} loop />
               </h1>
             </div> 
           </div>

@@ -31,6 +31,9 @@ export default function Contact(props){
                             <li>
                                 <a href="https://www.instagram.com/pinokio.daske/" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram icon"></i></a>
                             </li>
+                            <li>
+                                <a href="tel:+385921244000"><i class="fa-solid fa-phone icon"></i></a>
+                            </li>
                         </ul>
                         <img src={ContactUs} alt="Contact us" width={30 + "%"}/>
                     </div>                
