@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c01024e3.css",
-    "main.js": "/static/js/main.7f3808ff.js",
+    "main.js": "/static/js/main.ea821f1e.js",
     "static/media/Woodworker.gif": "/static/media/Woodworker.b785358766d1571b6b26.gif",
     "static/media/parallax.jpg": "/static/media/parallax.3941a675eb4eb1b4630c.jpg",
     "static/media/ostalo2.jpg": "/static/media/ostalo2.bb9f67ced05b60b444ba.jpg",
@@ -47,10 +47,10 @@
     "static/media/ukras8.jpg": "/static/media/ukras8.9187793db881a28e1fdd.jpg",
     "index.html": "/index.html",
     "main.c01024e3.css.map": "/static/css/main.c01024e3.css.map",
-    "main.7f3808ff.js.map": "/static/js/main.7f3808ff.js.map"
+    "main.ea821f1e.js.map": "/static/js/main.ea821f1e.js.map"
   },
   "entrypoints": [
     "static/css/main.c01024e3.css",
-    "static/js/main.7f3808ff.js"
+    "static/js/main.ea821f1e.js"
   ]
 }
