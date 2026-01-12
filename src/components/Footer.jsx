@@ -25,10 +25,10 @@ export default function Footer() {
             <div className="col-lg-6 col-12 d-flex justify-content-center justify-content-lg-end align-items-center">
                 <ul className="social-media-list">
                     <li>
-                        <a href="https://www.facebook.com/pinokio.daske"><i class="fa-brands fa-facebook-f icon"></i></a>
+                        <a href="https://www.facebook.com/people/Pinokio-daske/61556314972173/"><i class="fa-brands fa-facebook-f icon"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/pinokio.daske/"><i class="fa-brands fa-instagram icon"></i></a>
+                        <a href="https://www.instagram.com/pinokio_daske/"><i class="fa-brands fa-instagram icon"></i></a>
                     </li>
                     <li>
                         <a href="tel:+385921244000"><i class="fa-solid fa-phone icon"></i></a>
