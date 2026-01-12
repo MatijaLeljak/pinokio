@@ -26,7 +26,7 @@ export default function Contact(props){
                     <div className="d-flex justify-content-between social-media">
                         <ul className="social-media-list">
                             <li>
-                                <a href="https://www.facebook.com/pinokio.daske/" target="_blank" rel="noreferrer"><i class="fa-brands fa-facebook-f icon"></i></a>
+                                <a href="https://www.facebook.com/people/Pinokio-daske/61556314972173/" target="_blank" rel="noreferrer"><i class="fa-brands fa-facebook-f icon"></i></a>
                             </li>
                             <li>
                                 <a href="https://www.instagram.com/pinokio_daske" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram icon"></i></a>
@@ -34,7 +34,7 @@ export default function Contact(props){
                             <li>
                                 <a href="tel:+385922474125"><i class="fa-solid fa-phone icon"></i></a>
                             </li>
-                        </ul>
+                       </ul>
                         <img src={ContactUs} alt="Contact us" width={30 + "%"}/>
                     </div>                
                 </Zoom>
