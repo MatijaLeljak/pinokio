@@ -1,6 +1,6 @@
 import daska1 from "./images/daska1.jpg";
 import daska2 from "./images/daska2.jpg";
-import daska3 from "./images/daska3.png";
+import daska3 from "./images/daska3.jpg";
 import daska4 from "./images/daska4.png";
 import daska5 from "./images/daska5.png";
 import daska6 from "./images/daska6.png";
@@ -9,20 +9,24 @@ import daska8 from "./images/daska8.png";
 import daska9 from "./images/daska9.jpg";
 import daska10 from "./images/daska10.jpg";
 import daska11 from "./images/daska11.png";
-import ukras1 from "./images/ukras1.png";
+import daska12 from "./images/daska12.jpg";
+import daska13 from "./images/daska13.jpg";
+import daska14 from "./images/daska14.jpg";
+import ukras1 from "./images/ukras1.jpg";
 import ukras2 from "./images/ukras2.png";
-import ukras3 from "./images/ukras3.png";
-import ukras4 from "./images/ukras4.png";
+import ukras3 from "./images/ukras3.jpg";
+import ukras4 from "./images/ukras4.jpg";
 import ukras5 from "./images/ukras5.png";
-import ukras6 from "./images/ukras6.png";
+import ukras6 from "./images/ukras6.jpg";
 import ukras7 from "./images/ukras7.png";
-import ukras8 from "./images/ukras8.jpg";
+import ukras8 from "./images/ukras8.png";
 import ukras9 from "./images/ukras9.jpg";
-import ukras10 from "./images/ukras10.png";
+import ukras10 from "./images/ukras10.jpg";
+import ukras11 from "./images/ukras11.jpg";
 import ostalo1 from "./images/ostalo1.jpg";
 import ostalo2 from "./images/ostalo2.jpg";
-import ostalo3 from "./images/ostalo3.png";
-import ostalo4 from "./images/ostalo4.png";
+import ostalo3 from "./images/ostalo3.jpg";
+import ostalo4 from "./images/ostalo4.jpg";
 import ostalo5 from "./images/ostalo5.png";
 import ostalo6 from "./images/ostalo6.jpg";
 import ostalo7 from "./images/ostalo7.jpg";
@@ -34,113 +38,113 @@ import ostalo12 from "./images/ostalo12.png";
 import ostalo13 from "./images/ostalo13.png";
 export const daske = [
     {
-      src: daska3,
+      src: daska1,
       width: 3,
       height: 3,
       className: "rounded-4",
-      alt: "Dobra kob - U.L. Fazan Preseka"
+      alt: "Oći smiju ti se dok me gledaš"
     },
     {
-        src: daska4,
+        src: daska10,
         width: 3,
-        height: 2,
+        height: 3,
         className: "rounded-4",
-        alt: "Enjoy Life daska za rezanje"
+        alt: "Daska za fešte"
     },
     {
-        src: daska6,
+        src: daska9,
+        width: 3,
+        height: 3,
+        className: "rounded-4",
+        alt: "Daska lovac"
+    },
+    {
+        src: daska3,
+        width: 3,
+        height: 3,
+        className: "rounded-4",
+        alt: "Pojest, popit, zagalamit"
+    },
+    {
+        src: daska13,
         width: 4,
         height: 3,
         className: "rounded-4",
-        alt: "Kuća za odmor Matovilka daska za rezanje"
-    },
-    {
-        src: daska5,
-        width: 3,
-        height: 4,
-        className: "rounded-4",
-        alt: "Daska za rezanje - rođendan"
-    },
-    {
-        src: daska7,
-        width: 4,
-        height: 3,
-        className: "rounded-4",
-        alt: "Daska za rezanje - Masti i proteini"
+        alt: "Vino sirevi i kumovi"
     }
   ];
 
   export const ukrasi = [
     {
-      src: ukras1,
+      src: ukras10,
       width: 4,
       height: 3,
       className: "rounded-4",
-      alt: "Stojeći ukrasi"
+      alt: "Viseći ukras za dijete"
     },
     {
-        src: ukras2,
+        src: ukras1,
         width: 3,
         height: 3,
         className: "rounded-4",
-        alt: "Pikado"
+        alt: "Trodijelna slika"
     },
     {
-        src: ukras6,
+        src: ukras3,
         width: 3,
-        height: 4,
-        className: "rounded-4",
-        alt: "Viseći ukras"
-    },
-    {
-        src: ukras5,
-        width: 4,
         height: 3,
         className: "rounded-4",
-        alt: "Posuda za psa"
+        alt: "Gravirana slika za zid"
+    },
+    {
+        src: ukras8,
+        width: 3,
+        height: 3,
+        className: "rounded-4",
+        alt: "Ukras za klet"
     },
     
   ];
   export const ostalo = [
     {
-        src: ostalo4,
-        width: 4,
-        height: 3,
-        className: "rounded-4",
-        alt: "Okvir vrata i prozora"
-    },
-    {
         src: ostalo1,
         width: 3,
-        height: 4,
+        height: 3,
         className: "rounded-4",
-        alt: "Vanjski dio prozora"
+        alt: "Podmetači za čaše"
+    },
+    {
+        src: ostalo2,
+        width: 3,
+        height: 3,
+        className: "rounded-4",
+        alt: "Ukras za vjenčanje"
       },
       {
-        src: ostalo5,
+        src: ostalo3,
         width: 3,
-        height: 4,
+        height: 3,
         className: "rounded-4",
-        alt: "Cjenik"
+        alt: "Otvarač za pivo"
       },
     
     {
-        src: ostalo7,
-        width: 4,
+        src: ostalo4,
+        width: 3,
         height: 3,
         className: "rounded-4",
-        alt: "Električna gitara"
+        alt: "Natpis za ulazna vrata"
       }
       
   ]
   export const galerija = [
     ...daske, ...ukrasi, ...ostalo,
     {
-      src: daska1,
+      src: daska4,
       width: 4,
       height: 3,
       className: "rounded-4",
-      alt: "Daska mali krug velikih ljudi"
+      alt: "Enjoy life"
   },
   {
     src: daska2,
@@ -150,18 +154,18 @@ export const daske = [
     alt: "Daska Wine, cheese and friends"
   },
   {
-    src: ukras3,
-    width: 3,
-    height: 4,
-    className: "rounded-4",
-    alt: "Ukras viseća gitara"
-  },
-  {
-    src: ostalo2,
+    src: ukras2,
     width: 3,
     height: 3,
     className: "rounded-4",
-    alt: "Okvir prozora"
+    alt: "Pikado"
+  },
+  {
+    src: ostalo5,
+    width: 3,
+    height: 3,
+    className: "rounded-4",
+    alt: "Cjenik"
   },
   {
     src: daska8,
@@ -175,21 +179,21 @@ export const daske = [
     width: 3,
     height: 3,
     className: "rounded-4",
-    alt: "Viseća polica"
+    alt: "Slika automobila"
   },
   {
-    src: ostalo3,
+    src: ostalo7,
     width: 3,
     height: 3,
     className: "rounded-4",
-    alt: "Ukrasna daska"
+    alt: "Poklon kutija"
   },
   {
-    src: daska9,
+    src: daska7,
     width: 4,
     height: 3,
     className: "rounded-4",
-    alt: "Daska Mali krug velikih ljudi"
+    alt: "Daska za masti i proteine"
   },
   {
     src: ukras7,
@@ -206,25 +210,25 @@ export const daske = [
     alt: "Drvene kuhače"
   },
   {
-    src: daska10,
+    src: daska12,
     width: 3,
-    height: 4,
+    height: 3,
     className: "rounded-4",
-    alt: "Daska I cook with wine"
+    alt: "Daska Lovac"
   },
   {
-    src: ukras10,
+    src: ukras11,
     width: 3,
     height: 4,
     className: "rounded-4",
-    alt: "Slika BMW M3 E30"
+    alt: "Viseći ukras za dijete"
   },
   {
     src: ostalo8,
     width: 3,
     height: 3,
     className: "rounded-4",
-    alt: "Stalak za salvete"
+    alt: "Stalak za knjigu"
   },
   {
     src: daska11,
@@ -234,11 +238,18 @@ export const daske = [
     alt: "Daska Dinamo za klet"
   },
   {
+    src: daska14,
+    width: 3,
+    height: 3,
+    className: "rounded-4",
+    alt: "Wine, cheese and friends"
+  },
+  {
     src: ostalo9,
     width: 3,
     height: 3,
     className: "rounded-4",
-    alt: "Znak Welcome za ulazna vrata"
+    alt: "Hranilica za pse"
   },
   {
     src: ukras9,
@@ -255,11 +266,11 @@ export const daske = [
     alt: "Drvena poklon vrećica za butelju vina"
   },
   {
-    src: ukras8,
+    src: ukras5,
     width: 3,
     height: 3,
     className: "rounded-4",
-    alt: "Višeslojna slika"
+    alt: "Hranilica za pse"
   },
   {
     src: ostalo11,
@@ -281,5 +292,26 @@ export const daske = [
     height: 3,
     className: "rounded-4",
     alt: "Drveni sanduk za pivo"
-  }
+  },
+  {
+    src: ukras6,
+    width: 3,
+    height: 3,
+    className: "rounded-4",
+    alt: "Ukras za vrata"
+  },
+  {
+    src: daska5,
+    width: 3,
+    height: 4,
+    className: "rounded-4",
+    alt: "Daska za lovce"
+  },
+  {
+    src: daska6,
+    width: 3,
+    height: 3,
+    className: "rounded-4",
+    alt: "Kuća za odmor"
+  },
   ]
